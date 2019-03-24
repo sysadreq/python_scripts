@@ -1,0 +1,35 @@
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/bin/bash
+daemon:x:2:2:Daemon:/sbin:/bin/bash
+lp:x:4:7:Printing daemon:/var/spool/lpd:/bin/bash
+mail:x:8:12:Mailer daemon:/var/spool/clientmqueue:/bin/false
+news:x:9:13:News system:/etc/news:/bin/bash
+uucp:x:10:14:Unix-to-Unix CoPy system:/etc/uucp:/bin/bash
+games:x:12:100:Games account:/var/games:/bin/bash
+man:x:13:62:Manual pages viewer:/var/cache/man:/bin/bash
+wwwrun:x:30:8:WWW daemon apache:/var/lib/wwwrun:/bin/false
+ftp:x:40:49:FTP account:/srv/ftp:/bin/bash
+nobody:x:65534:65533:nobody:/var/lib/nobody:/bin/bash
+messagebus:x:499:499:User for D-Bus:/var/run/dbus:/bin/false
+sshd:x:498:498:SSH daemon:/var/lib/sshd:/bin/false
+polkitd:x:497:496:User for polkitd:/var/lib/polkit:/sbin/nologin
+nscd:x:496:495:User for nscd:/run/nscd:/sbin/nologin
+rpc:x:495:65534:user for rpcbind:/var/lib/empty:/sbin/nologin
+openslp:x:494:2:openslp daemon:/var/lib/empty:/sbin/nologin
+systemd-timesync:x:491:491:systemd Time Synchronization:/:/sbin/nologin
+systemd-bus-proxy:x:492:492:systemd Bus Proxy:/:/sbin/nologin
+uuidd:x:490:490:User for uuidd:/var/run/uuidd:/bin/bash
+ntp:x:74:488:NTP daemon:/var/lib/ntp:/bin/false
+at:x:25:25:Batch jobs daemon:/var/spool/atjobs:/bin/bash
+saprouter:x:1000:100::/var/lib/saprouter:/bin/false
+statd:x:489:65534:NFS statd daemon:/var/lib/nfs:/sbin/nologin
+rtkit:x:488:487:RealtimeKit:/proc:/bin/false
+pulse:x:487:486:PulseAudio daemon:/var/lib/pulseaudio:/sbin/nologin
+ftpsecure:x:486:65534:Secure FTP User:/var/lib/empty:/bin/false
+vnc:x:485:484:user for VNC:/var/lib/empty:/sbin/nologin
+postfix:x:51:51:Postfix Daemon:/var/spool/postfix:/bin/false
+scard:x:484:483:Smart Card Reader:/var/run/pcscd:/usr/sbin/nologin
+mysql:x:60:480:MySQL database admin:/var/lib/mysql:/bin/false
+smt:x:483:8:User for SMT:/var/lib/smt:/usr/bin/false
+tftp:x:482:479:TFTP account:/srv/tftpboot:/bin/false
+admin-rramirez:x:70000:70000:TFTP account:/srv/tftpboot:/bin/false
